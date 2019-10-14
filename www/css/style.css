@@ -67,9 +67,10 @@
     input[type=number] {text-align: right;}
 
     body{
-      background-color: pink
+      background-color: pink;
     }
 
     button{
-      color: blue
+      color: blue;
+      font-style: italic;
     }
