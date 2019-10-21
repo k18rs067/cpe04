@@ -185,12 +185,15 @@
     function btnAClick(e){
       active = true;
       startTime = new Date();
-               
+      $("body").css("backgroundColor","lightblue");
+         
     }
 
     // ButtonBがクリックされた時の処理
     function btnBClick(e){
         active = false;
+        $("body").css("backgroundColor","lightgreen");
+
         
     }
 
